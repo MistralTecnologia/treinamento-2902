@@ -18,7 +18,6 @@ Tela de consulta das notas x Cte
 User Function TRACOM01()
 
 	Private oDlg     	:= Nil
-	versao por fora!kfhgfghfhgfjgfhgfghgf
 	Private cTitulo  	:= "Consulta"  
 	Private cNumNfori	:= SPACE(9)
 	Private cNumNfCte	:= SPACE(9)
