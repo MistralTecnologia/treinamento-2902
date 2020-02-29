@@ -19,6 +19,7 @@ User Function TRACOM01()
 
 	Private oDlg     	:= Nil
 	Private cTitulo  	:= "Consulta"  
+	Private cTitulo  	:= "Consulta"  
 	Private cNumNfori	:= SPACE(9)
 	Private cNumNfCte	:= SPACE(9)
 	Private cSerieOri	:= SPACE(3)
