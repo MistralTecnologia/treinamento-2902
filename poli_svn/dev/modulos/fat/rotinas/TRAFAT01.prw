@@ -25,6 +25,7 @@ User Function TRACOM01()
 	Private cSerieCte	:= SPACE(3)
 	Private cCtrlFrete 	:= SPACE(9)
 	Private cFilialx    := SPACE(6)
+	Private cFilialx    := SPACE(6)
 
 	DEFINE FONT oFont NAME 'Arial' SIZE 0, -12 BOLD
 	
