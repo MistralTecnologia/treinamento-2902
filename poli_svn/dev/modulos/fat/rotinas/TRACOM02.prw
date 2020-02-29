@@ -18,6 +18,7 @@ Tela de consulta das notas x Cte
 User Function TRACOM01()
 
 	Private oDlg     	:= Nil
+	versao por fora!kfhgfghfhgfjgfhgfghgf
 	Private cTitulo  	:= "Consulta"  
 	Private cNumNfori	:= SPACE(9)
 	Private cNumNfCte	:= SPACE(9)
@@ -151,7 +152,7 @@ User Function FConsulta(cNumNfori,cSerieOri,cNumNfCte,cSerieCte, cCtrlFrete)
 
 
 	MemoWrite("\sql\TRACOM01.sql",cQry)
-	TcQuery cQry New Alias "TRB" // Cria tabela temporária
+	TcQuery cQry New Alias "TRB" // Cria tabela temporÃ¡ria
 
 	If TRB->(!Eof()) //Se houver dados
 		
@@ -174,7 +175,7 @@ User Function FConsulta(cNumNfori,cSerieOri,cNumNfCte,cSerieCte, cCtrlFrete)
 											"Chave",;
 											"Valor CTE",;
 											"NF Origem",;
-											"Série Origem",;																														
+											"SÃ©rie Origem",;																														
 											"Valor",;
 		SIZE 420,230 OF oDlg2 PIXEL
 		oLbx:Reset()
@@ -193,7 +194,7 @@ User Function FConsulta(cNumNfori,cSerieOri,cNumNfCte,cSerieCte, cCtrlFrete)
 		 
 		ACTIVATE MSDIALOG oDlg2 CENTER	
 	Else
-		MsgBox("Não há dados.","Atenção","ALERT")
+		MsgBox("NÃ£o hÃ¡ dados.","AtenÃ§Ã£o","ALERT")
 		
 		If Select("TRB") > 0
 			TRB->(DbCloseArea()) // Fecha a area
